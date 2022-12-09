@@ -21,7 +21,7 @@ public class Test1 {
         WebElement searchBox = driver.findElement(By.id("txtSearchBox"));
         searchBox.sendKeys("kaşık maması");
         searchBox.sendKeys(Keys.ENTER);
-        Thread.sleep(3000);
+
 
 
     }
